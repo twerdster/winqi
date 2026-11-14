@@ -10,7 +10,11 @@ The historic Android capture experiments remain a separate, unbuilt effort. Thei
 
 ## Relationship to CoBe
 
-The public [baklawe/CoBe repository](https://github.com/baklawe/CoBe) describes *Coded Beacons for Localization, Object Tracking, and SLAM Augmentation* and links [arXiv:1708.05625](https://arxiv.org/abs/1708.05625). The paper credits Roman Rabinovich, Ibrahim Jubran, Aaron Wetzler, and Ron Kimmel; its initial arXiv submission was in 2017 and its revised version in 2020. The observed upstream source commit is `576d6f9ba833ec16c46e0645141b9a0e92e4dc55` (2020-09-02).
+The original [Winqi paper, arXiv:1708.05625v1](https://arxiv.org/abs/1708.05625v1), was submitted on 18 August 2017 by Aaron Wetzler and Ron Kimmel under the title *Winqi: A System for 6D Localization and SLAM Augmentation Using Wideangle Optics and Coded Light Beacons*. It is a preliminary draft describing the system and cyclic coding method.
+
+[CoBe, arXiv:1708.05625v3](https://arxiv.org/abs/1708.05625v3), is the expanded, retitled revision of that same arXiv record, dated 21 April 2020. Its authors are Roman Rabinovich, Ibrahim Jubran, Aaron Wetzler, and Ron Kimmel. The later work, *CoBe — Coded Beacons for Localization, Object Tracking, and SLAM Augmentation*, adds the hardware implementation and real-world experiments and appeared at [IEEE CASE 2020](https://doi.org/10.1109/CASE48305.2020.9216779).
+
+The public [baklawe/CoBe repository](https://github.com/baklawe/CoBe) provides that application's code. The observed upstream source commit is `576d6f9ba833ec16c46e0645141b9a0e92e4dc55` (2020-09-02).
 
 All **19 cyclic MAT files** in this recovery are byte-identical to files in that upstream repository's `CodeCyclic.zip`. The source manifest records each matching member and pinned commit. The public repository includes Python tracking/localization components and ATtiny firmware under its own MIT notice. This evidence supports a direct code-table connection; it does not mean every WinQI experiment or newer implementation here is identical to CoBe.
 

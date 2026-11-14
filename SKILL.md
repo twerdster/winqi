@@ -2,6 +2,10 @@
 
 Read SUMMARY.md, README.md, NOTICE.md, and docs/PROVENANCE.md before changes. The repository separates original coded-beacon research from updated software and procedural media. The related CoBe public application remains linked upstream with its original author/license attribution.
 
+## Research presentation
+
+Keep the README focused on how coded beacons work, the demonstration, published research results, runnable examples and useful code entry points. Link archive/recovery details from supporting docs. Cite original Winqi with arXiv:1708.05625v1 (2017, Wetzler and Kimmel) and later CoBe with v3 (2020, Rabinovich, Jubran, Wetzler and Kimmel); they are versions of the same arXiv record. Attribute experimental results to the specific paper and setup. Keep the new binary-stream checks and synthetic demonstration separate from hardware/localization results. CoBe's reported submillimeter rail ground-truth precision is not system tracking accuracy.
+
 ## Historical archive
 
 `source/original/` is the reviewed exact-byte archive. Do not edit or reformat it. Any justified source sanitization requires explicit original/published hashes and named transformations in docs/ORIGINAL_SOURCE_MANIFEST.json. Put new behavior in updated/, with separate tests, notices, and documentation. Preserve the two LCS variants in separate directories and retain their BSD license. The CoBe MIT notice applies to the already-public identical cyclic tables, not to every historical source.
