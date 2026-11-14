@@ -1,0 +1,740 @@
+{
+  "schema_version": 1,
+  "recovery_date": "2026-11-14",
+  "description": "Exact reviewed historical source/table publication copies, with logical relative source paths only.",
+  "files": [
+    {
+      "path": "source/original/matlab/decodeEditDistance.m",
+      "original_path": "decodeEditDistance.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 676,
+      "original_sha256": "88f02480c756c4f41650460fd5a5ffbe2417f989f33160cdc8b5effaf47dde6b",
+      "published_sha256": "88f02480c756c4f41650460fd5a5ffbe2417f989f33160cdc8b5effaf47dde6b",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/demo_popcnt.m",
+      "original_path": "demo_popcnt.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 122,
+      "original_sha256": "cb06f04e40ac335963c3a400e8dcdfb836ef41a895dd92c90cb2aaf53e9727eb",
+      "published_sha256": "cb06f04e40ac335963c3a400e8dcdfb836ef41a895dd92c90cb2aaf53e9727eb",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/findCode.m",
+      "original_path": "findCode.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 1160,
+      "original_sha256": "06fad8404b0e1d10733ab0c1fb68abd8b007f2229e528d6e4e121759e126abea",
+      "published_sha256": "06fad8404b0e1d10733ab0c1fb68abd8b007f2229e528d6e4e121759e126abea",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/flasher.m",
+      "original_path": "flasher.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 6998,
+      "original_sha256": "abfadd5b235481f80f7f4f4d1dd37500b781d3a528b5863051971ae90bf01bad",
+      "published_sha256": "abfadd5b235481f80f7f4f4d1dd37500b781d3a528b5863051971ae90bf01bad",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genBalls.m",
+      "original_path": "genBalls.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 920,
+      "original_sha256": "3cfd170897276dfb64d77a7aee91cf64787e8639698fa5b36df72ce4f4ae948e",
+      "published_sha256": "3cfd170897276dfb64d77a7aee91cf64787e8639698fa5b36df72ce4f4ae948e",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genCodes.m",
+      "original_path": "genCodes.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 3344,
+      "original_sha256": "f0916227cbc57e9b8b86ad928a67bd579acf22bda7bc57b5358a184cc0bb85e5",
+      "published_sha256": "f0916227cbc57e9b8b86ad928a67bd579acf22bda7bc57b5358a184cc0bb85e5",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genCodesCyclic.m",
+      "original_path": "genCodesCyclic.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 1712,
+      "original_sha256": "af08e56032048d1c56582d4d8f16fd482ef92adb41507c4689423e66f38778dc",
+      "published_sha256": "af08e56032048d1c56582d4d8f16fd482ef92adb41507c4689423e66f38778dc",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genCodesNonCyclic.m",
+      "original_path": "genCodesNonCyclic.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 1621,
+      "original_sha256": "c005aedab896762127524980444e4c7e4fad6b03e7393a65f3cc141246f719d2",
+      "published_sha256": "c005aedab896762127524980444e4c7e4fad6b03e7393a65f3cc141246f719d2",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genGraphs.m",
+      "original_path": "genGraphs.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 6073,
+      "original_sha256": "2ee4fa9da2055041ab40b15a1fbda46f23748195835c17c24a9024c20a94155c",
+      "published_sha256": "2ee4fa9da2055041ab40b15a1fbda46f23748195835c17c24a9024c20a94155c",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genNoise.m",
+      "original_path": "genNoise.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 1132,
+      "original_sha256": "788274a3c4c2bed3e21bb1fdf23ff79f95528980b555acdaaa08971975d3a58b",
+      "published_sha256": "788274a3c4c2bed3e21bb1fdf23ff79f95528980b555acdaaa08971975d3a58b",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genSkippedBall.m",
+      "original_path": "genSkippedBall.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 659,
+      "original_sha256": "582e6b77b9dd4a27bcdd316e6329ecb8a2f3de4c6d1fc190f8216697547fd5a9",
+      "published_sha256": "582e6b77b9dd4a27bcdd316e6329ecb8a2f3de4c6d1fc190f8216697547fd5a9",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/genUpsample.m",
+      "original_path": "genUpsample.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 76,
+      "original_sha256": "7faa6805528acb0608530530bc813a6a9cef8ffba9fe81664a3fe350c6537eeb",
+      "published_sha256": "7faa6805528acb0608530530bc813a6a9cef8ffba9fe81664a3fe350c6537eeb",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/generateCodeFiles.m",
+      "original_path": "generateCodeFiles.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 893,
+      "original_sha256": "a44f1f7b02dde39101bd53f04db2e186435f5c015d7bc30c033940abe26c6784",
+      "published_sha256": "a44f1f7b02dde39101bd53f04db2e186435f5c015d7bc30c033940abe26c6784",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/popcnt.cpp",
+      "original_path": "popcnt.cpp",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 2131,
+      "original_sha256": "3cf236ec5ffa82dc6dad382082a7c45bc84ee97035952afd6c7dd154ddddb373",
+      "published_sha256": "3cf236ec5ffa82dc6dad382082a7c45bc84ee97035952afd6c7dd154ddddb373",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/pr_hmm.m",
+      "original_path": "pr_hmm.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 614,
+      "original_sha256": "24bd66ffc45f88edbec3e196570884e85b3ad505f332b4375589c1b4d6a09748",
+      "published_sha256": "24bd66ffc45f88edbec3e196570884e85b3ad505f332b4375589c1b4d6a09748",
+      "transformations": []
+    },
+    {
+      "path": "source/original/matlab/simulateCodes.m",
+      "original_path": "simulateCodes.m",
+      "scope": "historical-research-source-no-new-license",
+      "bytes": 1623,
+      "original_sha256": "0f314ee9395472b84225fb7351303f609e865183dd855a0b2040c4d3d0ab0083",
+      "published_sha256": "0f314ee9395472b84225fb7351303f609e865183dd855a0b2040c4d3d0ab0083",
+      "transformations": []
+    },
+    {
+      "path": "source/original/third_party/lcs/modified/LCS.m",
+      "original_path": "LCS.m",
+      "scope": "David-Cumin-BSD-2-Clause",
+      "bytes": 1967,
+      "original_sha256": "5af824eced4af352f8360ba11f472111fd6cc6d62e46da299f6568fa766afeb8",
+      "published_sha256": "5af824eced4af352f8360ba11f472111fd6cc6d62e46da299f6568fa766afeb8",
+      "transformations": []
+    },
+    {
+      "path": "source/original/third_party/lcs/package/LCS.m",
+      "original_path": "LCS/LCS.m",
+      "scope": "David-Cumin-BSD-2-Clause",
+      "bytes": 1918,
+      "original_sha256": "7d23f3945edc6c0ea19275a8960f10a9bc403c47ff6756d3b9f4dde5e4474879",
+      "published_sha256": "7d23f3945edc6c0ea19275a8960f10a9bc403c47ff6756d3b9f4dde5e4474879",
+      "transformations": []
+    },
+    {
+      "path": "source/original/third_party/lcs/LICENSE.txt",
+      "original_path": "LCS/license.txt",
+      "scope": "David-Cumin-BSD-2-Clause",
+      "bytes": 1311,
+      "original_sha256": "900c3c5b24898f320d0883784e38e14bbded8d86c424bcda102d6562a12757ef",
+      "published_sha256": "900c3c5b24898f320d0883784e38e14bbded8d86c424bcda102d6562a12757ef",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/21codes.mat",
+      "original_path": "21codes.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 2768,
+      "original_sha256": "2510faef338541525790b05eea3c1cb4b762b0f5284808247ab22b25202a0bff",
+      "published_sha256": "2510faef338541525790b05eea3c1cb4b762b0f5284808247ab22b25202a0bff",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeCyclic10.mat",
+      "original_path": "CodeCyclic10.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 897,
+      "original_sha256": "cd0cc6cb4ceaa6a30f52140143f4b486df5daf7e80788564760c6b88a42bc58e",
+      "published_sha256": "cd0cc6cb4ceaa6a30f52140143f4b486df5daf7e80788564760c6b88a42bc58e",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic10.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic11.mat",
+      "original_path": "CodeCyclic11.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 1536,
+      "original_sha256": "be953ca1bca32fc00a982ea8b8277eccce6675d9dd66cc46fd59f71f4abbce62",
+      "published_sha256": "be953ca1bca32fc00a982ea8b8277eccce6675d9dd66cc46fd59f71f4abbce62",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic11.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic12.mat",
+      "original_path": "CodeCyclic12.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 2351,
+      "original_sha256": "470d39ba915ff14aee4dd3337328276805f89bee9706af383a702e0e5638b2d0",
+      "published_sha256": "470d39ba915ff14aee4dd3337328276805f89bee9706af383a702e0e5638b2d0",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic12.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic13.mat",
+      "original_path": "CodeCyclic13.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 5367,
+      "original_sha256": "f6b7198f0ec0df2461c5f0bd66ba6ce550a941e41310d6d8be2b9f87991520a6",
+      "published_sha256": "f6b7198f0ec0df2461c5f0bd66ba6ce550a941e41310d6d8be2b9f87991520a6",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic13.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic14.mat",
+      "original_path": "CodeCyclic14.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 8528,
+      "original_sha256": "a30017c362b982114aa369f177f41ea7eaa0a89a4b908a43ab966f900d65a779",
+      "published_sha256": "a30017c362b982114aa369f177f41ea7eaa0a89a4b908a43ab966f900d65a779",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic14.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic15.mat",
+      "original_path": "CodeCyclic15.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 19105,
+      "original_sha256": "e29d8f7bd27dbda66ba70b84e4ff427ec19ae6f43948034cab4f546b7acacf8d",
+      "published_sha256": "e29d8f7bd27dbda66ba70b84e4ff427ec19ae6f43948034cab4f546b7acacf8d",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic15.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic16.mat",
+      "original_path": "CodeCyclic16.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 34978,
+      "original_sha256": "6023a5fd3cf5a5f4243845128d58f2a1b7886135d102480e1d3b1c77ee716962",
+      "published_sha256": "6023a5fd3cf5a5f4243845128d58f2a1b7886135d102480e1d3b1c77ee716962",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic16.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic17.mat",
+      "original_path": "CodeCyclic17.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 65192,
+      "original_sha256": "11329d654975383bfa795ae964793ac36781c1cb4a161818e51a6c9c2a67dfb1",
+      "published_sha256": "11329d654975383bfa795ae964793ac36781c1cb4a161818e51a6c9c2a67dfb1",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic17.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic18.mat",
+      "original_path": "CodeCyclic18.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 131052,
+      "original_sha256": "d90bb12db519a5bc1b6738bc16ef408639ce4921950df1fea2cbe243296436ab",
+      "published_sha256": "d90bb12db519a5bc1b6738bc16ef408639ce4921950df1fea2cbe243296436ab",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic18.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic19.mat",
+      "original_path": "CodeCyclic19.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 265719,
+      "original_sha256": "34d7a0c8df6a2369632cf5e23c00ed8d1e25a1e6da83f5ec929832d4916c7a55",
+      "published_sha256": "34d7a0c8df6a2369632cf5e23c00ed8d1e25a1e6da83f5ec929832d4916c7a55",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic19.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic20.mat",
+      "original_path": "CodeCyclic20.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 517307,
+      "original_sha256": "c1397e9031ba0a760c746324a58ca25f51586159a827753fea56016f12e48883",
+      "published_sha256": "c1397e9031ba0a760c746324a58ca25f51586159a827753fea56016f12e48883",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic20.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic21.mat",
+      "original_path": "CodeCyclic21.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 1009723,
+      "original_sha256": "55b6d663318a9354daba1efce3b592579de3b3e27d172bc50bd0f51f78faf3d9",
+      "published_sha256": "55b6d663318a9354daba1efce3b592579de3b3e27d172bc50bd0f51f78faf3d9",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic21.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic3.mat",
+      "original_path": "CodeCyclic3.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 237,
+      "original_sha256": "f37642689e8a81b4e4aa15cf3056f568fa0147b279c4cfcb5c6b508d916de1f4",
+      "published_sha256": "f37642689e8a81b4e4aa15cf3056f568fa0147b279c4cfcb5c6b508d916de1f4",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic3.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic4.mat",
+      "original_path": "CodeCyclic4.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 244,
+      "original_sha256": "8125f92239d95d580a97fb29714a4590d91fe662a3bc96a49a7a5cbf79810e78",
+      "published_sha256": "8125f92239d95d580a97fb29714a4590d91fe662a3bc96a49a7a5cbf79810e78",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic4.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic5.mat",
+      "original_path": "CodeCyclic5.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 261,
+      "original_sha256": "9b752a4f27bd629f69255014a1d2fc9183acb6fc0d3fa1a34d3473b437df5544",
+      "published_sha256": "9b752a4f27bd629f69255014a1d2fc9183acb6fc0d3fa1a34d3473b437df5544",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic5.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic6.mat",
+      "original_path": "CodeCyclic6.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 292,
+      "original_sha256": "8cc8250516fd81cb56a9a54f508615b5e5d86e924f6386dfa4ddae6a81e12587",
+      "published_sha256": "8cc8250516fd81cb56a9a54f508615b5e5d86e924f6386dfa4ddae6a81e12587",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic6.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic7.mat",
+      "original_path": "CodeCyclic7.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 329,
+      "original_sha256": "2cc37882a619fc3b9eaa952cfaf250be017e29bb9cd51a48880fc79f7d55e0cf",
+      "published_sha256": "2cc37882a619fc3b9eaa952cfaf250be017e29bb9cd51a48880fc79f7d55e0cf",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic7.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic8.mat",
+      "original_path": "CodeCyclic8.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 457,
+      "original_sha256": "dd10cce0b8adca595c98fde80fa80ebb6a43d16e3502e42d90c3a87c3a5471c4",
+      "published_sha256": "dd10cce0b8adca595c98fde80fa80ebb6a43d16e3502e42d90c3a87c3a5471c4",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic8.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeCyclic9.mat",
+      "original_path": "CodeCyclic9.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 540,
+      "original_sha256": "6f1dc6abd9a919631cf9a4e2133d298e5e38ac49c470df6b3a7b00f5ba4ba0d4",
+      "published_sha256": "6f1dc6abd9a919631cf9a4e2133d298e5e38ac49c470df6b3a7b00f5ba4ba0d4",
+      "transformations": [],
+      "public_identical_copy": {
+        "repository": "https://github.com/baklawe/CoBe",
+        "commit": "576d6f9ba833ec16c46e0645141b9a0e92e4dc55",
+        "archive_member": "CodeCyclic.zip!CodeCyclic9.mat",
+        "license_notice": "LICENSES/CoBe-MIT.txt"
+      }
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic10.mat",
+      "original_path": "CodeNonCyclic10.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 1066,
+      "original_sha256": "7e0a38729800d15abd9b9a955b80097585c1ed687278e4b36bc25640955df1e8",
+      "published_sha256": "7e0a38729800d15abd9b9a955b80097585c1ed687278e4b36bc25640955df1e8",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic11.mat",
+      "original_path": "CodeNonCyclic11.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 2157,
+      "original_sha256": "78f6d98ce8b3adccf72b16d41b410f3b03bcd7379a6cf664a148fa95998f4cca",
+      "published_sha256": "78f6d98ce8b3adccf72b16d41b410f3b03bcd7379a6cf664a148fa95998f4cca",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic12.mat",
+      "original_path": "CodeNonCyclic12.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 4139,
+      "original_sha256": "2fe8b1603b2a30b243a23b111c266b30deddc26798ccc8dce15792cc04800927",
+      "published_sha256": "2fe8b1603b2a30b243a23b111c266b30deddc26798ccc8dce15792cc04800927",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic13.mat",
+      "original_path": "CodeNonCyclic13.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 8294,
+      "original_sha256": "6d13a83ecfcc60b69d671b823c1143bd39aea04a3e1fbfdab530bda1bf561c75",
+      "published_sha256": "6d13a83ecfcc60b69d671b823c1143bd39aea04a3e1fbfdab530bda1bf561c75",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic14.mat",
+      "original_path": "CodeNonCyclic14.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 17354,
+      "original_sha256": "ca5b2a486115b90ffcdc4348bb569b82fdab9dc2cfd9d4df1a172b56313e5ef5",
+      "published_sha256": "ca5b2a486115b90ffcdc4348bb569b82fdab9dc2cfd9d4df1a172b56313e5ef5",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic15.mat",
+      "original_path": "CodeNonCyclic15.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 33825,
+      "original_sha256": "44de301231aadccf09e6af52de93a8358c3bf33a3a742a05afdcc354688170b6",
+      "published_sha256": "44de301231aadccf09e6af52de93a8358c3bf33a3a742a05afdcc354688170b6",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic16.mat",
+      "original_path": "CodeNonCyclic16.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 69154,
+      "original_sha256": "046a3fb1082b8b05f9db968f80520f6e2ecab91acb5505c8059ce59459fec0b2",
+      "published_sha256": "046a3fb1082b8b05f9db968f80520f6e2ecab91acb5505c8059ce59459fec0b2",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic17.mat",
+      "original_path": "CodeNonCyclic17.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 139627,
+      "original_sha256": "af231023ec0213960180a91f59d34fa0a200243cb6c52397c14b611c2c2ec3ba",
+      "published_sha256": "af231023ec0213960180a91f59d34fa0a200243cb6c52397c14b611c2c2ec3ba",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic18.mat",
+      "original_path": "CodeNonCyclic18.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 281779,
+      "original_sha256": "d37400b00fc5520889851381d17991f6449e615767f9b170eb8001d0ef9ec2f5",
+      "published_sha256": "d37400b00fc5520889851381d17991f6449e615767f9b170eb8001d0ef9ec2f5",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic19.mat",
+      "original_path": "CodeNonCyclic19.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 569494,
+      "original_sha256": "898896cff21f0936055881ae8ea8ae8460d50a5134a098354002059524f7e77e",
+      "published_sha256": "898896cff21f0936055881ae8ea8ae8460d50a5134a098354002059524f7e77e",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic20.mat",
+      "original_path": "CodeNonCyclic20.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 1142693,
+      "original_sha256": "bfe4714d2825101952f652f7b3a8d0a227e893d1fcd71dbec1ec6c0b53c24553",
+      "published_sha256": "bfe4714d2825101952f652f7b3a8d0a227e893d1fcd71dbec1ec6c0b53c24553",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic21.mat",
+      "original_path": "CodeNonCyclic21.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 2289307,
+      "original_sha256": "a532bd358b8a0964584bb8f9af8a7a024f599bc5f37d889be914ebdc9b74ab3c",
+      "published_sha256": "a532bd358b8a0964584bb8f9af8a7a024f599bc5f37d889be914ebdc9b74ab3c",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic3.mat",
+      "original_path": "CodeNonCyclic3.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 237,
+      "original_sha256": "f100e79288577cdaa1bb08d21d5b342ddc8299b64adc78f5a10320041ebb52ea",
+      "published_sha256": "f100e79288577cdaa1bb08d21d5b342ddc8299b64adc78f5a10320041ebb52ea",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic4.mat",
+      "original_path": "CodeNonCyclic4.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 241,
+      "original_sha256": "edecddef576f2ccf4db511506fc12c136fa674fd15a4693b6c480ec44bdcc6f6",
+      "published_sha256": "edecddef576f2ccf4db511506fc12c136fa674fd15a4693b6c480ec44bdcc6f6",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic5.mat",
+      "original_path": "CodeNonCyclic5.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 260,
+      "original_sha256": "233cc32f74fbeaa4dc4b65278f13e69e6098bf5ba6f5c1016b324d7aedb0d2e5",
+      "published_sha256": "233cc32f74fbeaa4dc4b65278f13e69e6098bf5ba6f5c1016b324d7aedb0d2e5",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic6.mat",
+      "original_path": "CodeNonCyclic6.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 309,
+      "original_sha256": "60bd093a8671547c2df907411f297ac1dd1f95b704fc14b5990556fe2a85a415",
+      "published_sha256": "60bd093a8671547c2df907411f297ac1dd1f95b704fc14b5990556fe2a85a415",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic7.mat",
+      "original_path": "CodeNonCyclic7.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 326,
+      "original_sha256": "b3ce8e46dcd3ce5d949f6ce44adae835e1ac47acf7a45833bb330ec8a0ac422b",
+      "published_sha256": "b3ce8e46dcd3ce5d949f6ce44adae835e1ac47acf7a45833bb330ec8a0ac422b",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic8.mat",
+      "original_path": "CodeNonCyclic8.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 443,
+      "original_sha256": "3a3064ff9d98d5bc7f1bb254aa6cabffb2b4a9c23591aff3db66016e4d505eee",
+      "published_sha256": "3a3064ff9d98d5bc7f1bb254aa6cabffb2b4a9c23591aff3db66016e4d505eee",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeNonCyclic9.mat",
+      "original_path": "CodeNonCyclic9.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 685,
+      "original_sha256": "bdd067084efdd6b7dba7fe3c382e2a71d8f5c78b8ff7a4c66d23ed63d70a3707",
+      "published_sha256": "bdd067084efdd6b7dba7fe3c382e2a71d8f5c78b8ff7a4c66d23ed63d70a3707",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/FullyRobustCyclicCodes.mat",
+      "original_path": "FullyRobustCyclicCodes.mat",
+      "scope": "historical-numeric-table",
+      "bytes": 2165,
+      "original_sha256": "1aae7a49f184666de5e999e67a87dd8abf05cefc5c2abf42e596e663ef1fff65",
+      "published_sha256": "1aae7a49f184666de5e999e67a87dd8abf05cefc5c2abf42e596e663ef1fff65",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeCyclic14.dat",
+      "original_path": "CodeCyclic14.dat",
+      "scope": "historical-text-code-table",
+      "bytes": 21216,
+      "original_sha256": "34516b98a247e453ca7a518bc6f46b570ab82e508983381ccf4cb3470c2bf138",
+      "published_sha256": "34516b98a247e453ca7a518bc6f46b570ab82e508983381ccf4cb3470c2bf138",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeCyclic16.dat",
+      "original_path": "CodeCyclic16.dat",
+      "scope": "historical-text-code-table",
+      "bytes": 59866,
+      "original_sha256": "9a2b4f8b087a7a45874eac61267c8496db7ec08185774e1e81025b880065d1b2",
+      "published_sha256": "9a2b4f8b087a7a45874eac61267c8496db7ec08185774e1e81025b880065d1b2",
+      "transformations": []
+    },
+    {
+      "path": "source/original/tables/CodeCyclic21.dat",
+      "original_path": "CodeCyclic21.dat",
+      "scope": "historical-text-code-table",
+      "bytes": 1013753,
+      "original_sha256": "8004b8a12ea5782efeab5bf657befed8a31fe6cdf3203cc147c0cbb7287d8da4",
+      "published_sha256": "8004b8a12ea5782efeab5bf657befed8a31fe6cdf3203cc147c0cbb7287d8da4",
+      "transformations": []
+    }
+  ],
+  "excluded_source": [
+    {
+      "original_path": "hmmDecode2.m",
+      "reason": "contains a copied MathWorks HMM implementation with no redistribution grant recovered"
+    },
+    {
+      "original_path": "EditDistance.m",
+      "reason": "credits Reza Ahmadzadeh; no redistribution grant recovered"
+    },
+    {
+      "original_path": "disthamming.m",
+      "reason": "credits Francisco Carlos Calderon Bocanegra and mentions BSD, but no complete scoped license recovered"
+    },
+    {
+      "original_path": "findmaximalclique.m",
+      "reason": "adapted from other authors; no redistribution grant recovered"
+    },
+    {
+      "original_path": "BKmaximal/BK_MaxIS.m",
+      "reason": "third-party helper credited to Berk Birand; no scoped license recovered"
+    },
+    {
+      "original_path": "BKmaximal/BK_MaxClique.m",
+      "reason": "third-party helper credited to Berk Birand; no scoped license recovered"
+    },
+    {
+      "original_path": "grep.m",
+      "reason": "general third-party search helper; no scoped license recovered"
+    },
+    {
+      "original_path": "grepdemo.m",
+      "reason": "demo for omitted general grep helper"
+    },
+    {
+      "original_path": "im2coll.m",
+      "reason": "unrelated im2col experiment; no direct coded-beacon role established"
+    },
+    {
+      "original_path": "natProj.m",
+      "reason": "unrelated curve/superellipse experiment; no direct coded-beacon role established"
+    },
+    {
+      "original_path": "links.m",
+      "reason": "research-link notes rather than executable project code"
+    }
+  ],
+  "excluded_categories": [
+    "private notes and invention disclosures",
+    "paper drafts and unpublished correspondence",
+    "images and experimental recordings",
+    "raw backup/archive containers",
+    "separate private Android capture experiments"
+  ],
+  "supporting_notices": [
+    {
+      "path": "LICENSES/CoBe-MIT.txt",
+      "source": "https://github.com/baklawe/CoBe/blob/576d6f9ba833ec16c46e0645141b9a0e92e4dc55/LICENSE",
+      "sha256": "b96010a72c9ca195f32e274fa31e4c4b9f6ee5548fbdfa0bff62d3a5a58b0aac",
+      "bytes": 1064
+    }
+  ]
+}

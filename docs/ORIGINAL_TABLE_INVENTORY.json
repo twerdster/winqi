@@ -1,0 +1,1717 @@
+{
+  "inspection": "SciPy loadmat metadata/content-shape review; original generators were not executed",
+  "tables": [
+    {
+      "file": "21codes.mat",
+      "sha256": "2510faef338541525790b05eea3c1cb4b762b0f5284808247ab22b25202a0bff",
+      "fields": {
+        "A": {
+          "shape": [
+            21
+          ],
+          "dtype": "object"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "cell_code_counts": [
+        {
+          "bit_length_index": 3,
+          "codes_count": 1,
+          "first_codes": [
+            1
+          ]
+        },
+        {
+          "bit_length_index": 4,
+          "codes_count": 1,
+          "first_codes": [
+            1
+          ]
+        },
+        {
+          "bit_length_index": 5,
+          "codes_count": 2,
+          "first_codes": [
+            1,
+            15
+          ]
+        },
+        {
+          "bit_length_index": 6,
+          "codes_count": 2,
+          "first_codes": [
+            1,
+            15
+          ]
+        },
+        {
+          "bit_length_index": 7,
+          "codes_count": 2,
+          "first_codes": [
+            1,
+            15
+          ]
+        },
+        {
+          "bit_length_index": 8,
+          "codes_count": 4,
+          "first_codes": [
+            1,
+            15,
+            85,
+            127
+          ]
+        },
+        {
+          "bit_length_index": 9,
+          "codes_count": 4,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127
+          ]
+        },
+        {
+          "bit_length_index": 10,
+          "codes_count": 5,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            439
+          ]
+        },
+        {
+          "bit_length_index": 11,
+          "codes_count": 6,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            373
+          ]
+        },
+        {
+          "bit_length_index": 12,
+          "codes_count": 8,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 13,
+          "codes_count": 10,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 14,
+          "codes_count": 19,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 15,
+          "codes_count": 25,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 16,
+          "codes_count": 36,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 17,
+          "codes_count": 56,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 18,
+          "codes_count": 88,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 19,
+          "codes_count": 143,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 20,
+          "codes_count": 226,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        },
+        {
+          "bit_length_index": 21,
+          "codes_count": 376,
+          "first_codes": [
+            1,
+            15,
+            83,
+            127,
+            309
+          ]
+        }
+      ]
+    },
+    {
+      "file": "CodeCyclic10.mat",
+      "sha256": "cd0cc6cb4ceaa6a30f52140143f4b486df5daf7e80788564760c6b88a42bc58e",
+      "fields": {
+        "dict": {
+          "shape": [
+            2048
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            5
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 5,
+      "first_codes": [
+        1,
+        15,
+        83,
+        127,
+        439
+      ],
+      "contains_zero_code": false,
+      "dictionary_entries": 2048,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 440
+    },
+    {
+      "file": "CodeCyclic11.mat",
+      "sha256": "be953ca1bca32fc00a982ea8b8277eccce6675d9dd66cc46fd59f71f4abbce62",
+      "fields": {
+        "dict": {
+          "shape": [
+            4096
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            8
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 8,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        335,
+        887,
+        2047
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 4096,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 2048
+    },
+    {
+      "file": "CodeCyclic12.mat",
+      "sha256": "470d39ba915ff14aee4dd3337328276805f89bee9706af383a702e0e5638b2d0",
+      "fields": {
+        "dict": {
+          "shape": [
+            8192
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            9
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 9,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        273,
+        335,
+        887,
+        2047
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 8192,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 2048
+    },
+    {
+      "file": "CodeCyclic13.mat",
+      "sha256": "f6b7198f0ec0df2461c5f0bd66ba6ce550a941e41310d6d8be2b9f87991520a6",
+      "fields": {
+        "dict": {
+          "shape": [
+            16384
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            14
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 14,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        749,
+        891
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 16384,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 8192
+    },
+    {
+      "file": "CodeCyclic14.mat",
+      "sha256": "a30017c362b982114aa369f177f41ea7eaa0a89a4b908a43ab966f900d65a779",
+      "fields": {
+        "dict": {
+          "shape": [
+            32768
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            17
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 17,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        959
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 32768,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 16384
+    },
+    {
+      "file": "CodeCyclic15.mat",
+      "sha256": "e29d8f7bd27dbda66ba70b84e4ff427ec19ae6f43948034cab4f546b7acacf8d",
+      "fields": {
+        "dict": {
+          "shape": [
+            65536
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            27
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 27,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        959
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 65536,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 32768
+    },
+    {
+      "file": "CodeCyclic16.mat",
+      "sha256": "6023a5fd3cf5a5f4243845128d58f2a1b7886135d102480e1d3b1c77ee716962",
+      "fields": {
+        "dict": {
+          "shape": [
+            131072
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            37
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 37,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        771
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 131072,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 65536
+    },
+    {
+      "file": "CodeCyclic17.mat",
+      "sha256": "11329d654975383bfa795ae964793ac36781c1cb4a161818e51a6c9c2a67dfb1",
+      "fields": {
+        "dict": {
+          "shape": [
+            262144
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            53
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 53,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        771
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 262144,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 65024
+    },
+    {
+      "file": "CodeCyclic18.mat",
+      "sha256": "d90bb12db519a5bc1b6738bc16ef408639ce4921950df1fea2cbe243296436ab",
+      "fields": {
+        "dict": {
+          "shape": [
+            524288
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            85
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 85,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        771
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 524288,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 262144
+    },
+    {
+      "file": "CodeCyclic19.mat",
+      "sha256": "34d7a0c8df6a2369632cf5e23c00ed8d1e25a1e6da83f5ec929832d4916c7a55",
+      "fields": {
+        "dict": {
+          "shape": [
+            1048576
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            140
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 140,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        771
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 1048576,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 524288
+    },
+    {
+      "file": "CodeCyclic20.mat",
+      "sha256": "c1397e9031ba0a760c746324a58ca25f51586159a827753fea56016f12e48883",
+      "fields": {
+        "dict": {
+          "shape": [
+            2097152
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            232
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 232,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        771
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 2097152,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 524288
+    },
+    {
+      "file": "CodeCyclic21.mat",
+      "sha256": "55b6d663318a9354daba1efce3b592579de3b3e27d172bc50bd0f51f78faf3d9",
+      "fields": {
+        "dict": {
+          "shape": [
+            4194304
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            377
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 377,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127,
+        265,
+        335,
+        467,
+        741,
+        771
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 4194304,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 1048576
+    },
+    {
+      "file": "CodeCyclic3.mat",
+      "sha256": "f37642689e8a81b4e4aa15cf3056f568fa0147b279c4cfcb5c6b508d916de1f4",
+      "fields": {
+        "dict": {
+          "shape": [
+            16
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 2,
+      "first_codes": [
+        0,
+        7
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 16,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 8
+    },
+    {
+      "file": "CodeCyclic4.mat",
+      "sha256": "8125f92239d95d580a97fb29714a4590d91fe662a3bc96a49a7a5cbf79810e78",
+      "fields": {
+        "dict": {
+          "shape": [
+            32
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 2,
+      "first_codes": [
+        0,
+        7
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 32,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 8
+    },
+    {
+      "file": "CodeCyclic5.mat",
+      "sha256": "9b752a4f27bd629f69255014a1d2fc9183acb6fc0d3fa1a34d3473b437df5544",
+      "fields": {
+        "dict": {
+          "shape": [
+            64
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 2,
+      "first_codes": [
+        0,
+        7
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 64,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 8
+    },
+    {
+      "file": "CodeCyclic6.mat",
+      "sha256": "8cc8250516fd81cb56a9a54f508615b5e5d86e924f6386dfa4ddae6a81e12587",
+      "fields": {
+        "dict": {
+          "shape": [
+            128
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            3
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 3,
+      "first_codes": [
+        0,
+        7,
+        63
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 128,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 64
+    },
+    {
+      "file": "CodeCyclic7.mat",
+      "sha256": "2cc37882a619fc3b9eaa952cfaf250be017e29bb9cd51a48880fc79f7d55e0cf",
+      "fields": {
+        "dict": {
+          "shape": [
+            256
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            3
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 3,
+      "first_codes": [
+        0,
+        7,
+        63
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 256,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 64
+    },
+    {
+      "file": "CodeCyclic8.mat",
+      "sha256": "dd10cce0b8adca595c98fde80fa80ebb6a43d16e3502e42d90c3a87c3a5471c4",
+      "fields": {
+        "dict": {
+          "shape": [
+            512
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            5
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 5,
+      "first_codes": [
+        0,
+        7,
+        51,
+        85,
+        127
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 512,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 128
+    },
+    {
+      "file": "CodeCyclic9.mat",
+      "sha256": "6f1dc6abd9a919631cf9a4e2133d298e5e38ac49c470df6b3a7b00f5ba4ba0d4",
+      "fields": {
+        "dict": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            4
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 4,
+      "first_codes": [
+        0,
+        7,
+        51,
+        127
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 1024,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 128
+    },
+    {
+      "file": "CodeNonCyclic10.mat",
+      "sha256": "7e0a38729800d15abd9b9a955b80097585c1ed687278e4b36bc25640955df1e8",
+      "fields": {
+        "dict": {
+          "shape": [
+            2048
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            26
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 26,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 2048,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 961
+    },
+    {
+      "file": "CodeNonCyclic11.mat",
+      "sha256": "78f6d98ce8b3adccf72b16d41b410f3b03bcd7379a6cf664a148fa95998f4cca",
+      "fields": {
+        "dict": {
+          "shape": [
+            4096
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            51
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 51,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 4096,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 2032
+    },
+    {
+      "file": "CodeNonCyclic12.mat",
+      "sha256": "2fe8b1603b2a30b243a23b111c266b30deddc26798ccc8dce15792cc04800927",
+      "fields": {
+        "dict": {
+          "shape": [
+            8192
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            88
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 88,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 8192,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 4093
+    },
+    {
+      "file": "CodeNonCyclic13.mat",
+      "sha256": "6d13a83ecfcc60b69d671b823c1143bd39aea04a3e1fbfdab530bda1bf561c75",
+      "fields": {
+        "dict": {
+          "shape": [
+            16384
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            153
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 153,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 16384,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 8110
+    },
+    {
+      "file": "CodeNonCyclic14.mat",
+      "sha256": "ca5b2a486115b90ffcdc4348bb569b82fdab9dc2cfd9d4df1a172b56313e5ef5",
+      "fields": {
+        "dict": {
+          "shape": [
+            32768
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            281
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 281,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 32768,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 16367
+    },
+    {
+      "file": "CodeNonCyclic15.mat",
+      "sha256": "44de301231aadccf09e6af52de93a8358c3bf33a3a742a05afdcc354688170b6",
+      "fields": {
+        "dict": {
+          "shape": [
+            65536
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            491
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 491,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 65536,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 32762
+    },
+    {
+      "file": "CodeNonCyclic16.mat",
+      "sha256": "046a3fb1082b8b05f9db968f80520f6e2ecab91acb5505c8059ce59459fec0b2",
+      "fields": {
+        "dict": {
+          "shape": [
+            131072
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            896
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 896,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 131072,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 65424
+    },
+    {
+      "file": "CodeNonCyclic17.mat",
+      "sha256": "af231023ec0213960180a91f59d34fa0a200243cb6c52397c14b611c2c2ec3ba",
+      "fields": {
+        "dict": {
+          "shape": [
+            262144
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            1622
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 1622,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 262144,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 131072
+    },
+    {
+      "file": "CodeNonCyclic18.mat",
+      "sha256": "d37400b00fc5520889851381d17991f6449e615767f9b170eb8001d0ef9ec2f5",
+      "fields": {
+        "dict": {
+          "shape": [
+            524288
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            2949
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 2949,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 524288,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 262066
+    },
+    {
+      "file": "CodeNonCyclic19.mat",
+      "sha256": "898896cff21f0936055881ae8ea8ae8460d50a5134a098354002059524f7e77e",
+      "fields": {
+        "dict": {
+          "shape": [
+            1048576
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            5424
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 5424,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 1048576,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 524166
+    },
+    {
+      "file": "CodeNonCyclic20.mat",
+      "sha256": "bfe4714d2825101952f652f7b3a8d0a227e893d1fcd71dbec1ec6c0b53c24553",
+      "fields": {
+        "dict": {
+          "shape": [
+            2097152
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            9958
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 9958,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 2097152,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 1048512
+    },
+    {
+      "file": "CodeNonCyclic21.mat",
+      "sha256": "a532bd358b8a0964584bb8f9af8a7a024f599bc5f37d889be914ebdc9b74ab3c",
+      "fields": {
+        "dict": {
+          "shape": [
+            4194304
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            18409
+          ],
+          "dtype": "int32"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 18409,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 4194304,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 2097068
+    },
+    {
+      "file": "CodeNonCyclic3.mat",
+      "sha256": "f100e79288577cdaa1bb08d21d5b342ddc8299b64adc78f5a10320041ebb52ea",
+      "fields": {
+        "dict": {
+          "shape": [
+            16
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 2,
+      "first_codes": [
+        0,
+        7
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 16,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 8
+    },
+    {
+      "file": "CodeNonCyclic4.mat",
+      "sha256": "edecddef576f2ccf4db511506fc12c136fa674fd15a4693b6c480ec44bdcc6f6",
+      "fields": {
+        "dict": {
+          "shape": [
+            32
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 2,
+      "first_codes": [
+        0,
+        7
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 32,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 8
+    },
+    {
+      "file": "CodeNonCyclic5.mat",
+      "sha256": "233cc32f74fbeaa4dc4b65278f13e69e6098bf5ba6f5c1016b324d7aedb0d2e5",
+      "fields": {
+        "dict": {
+          "shape": [
+            64
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            3
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 3,
+      "first_codes": [
+        0,
+        7,
+        25
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 64,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 26
+    },
+    {
+      "file": "CodeNonCyclic6.mat",
+      "sha256": "60bd093a8671547c2df907411f297ac1dd1f95b704fc14b5990556fe2a85a415",
+      "fields": {
+        "dict": {
+          "shape": [
+            128
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            5
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 5,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 128,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 61
+    },
+    {
+      "file": "CodeNonCyclic7.mat",
+      "sha256": "b3ce8e46dcd3ce5d949f6ce44adae835e1ac47acf7a45833bb330ec8a0ac422b",
+      "fields": {
+        "dict": {
+          "shape": [
+            256
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            6
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 6,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 256,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 96
+    },
+    {
+      "file": "CodeNonCyclic8.mat",
+      "sha256": "3a3064ff9d98d5bc7f1bb254aa6cabffb2b4a9c23591aff3db66016e4d505eee",
+      "fields": {
+        "dict": {
+          "shape": [
+            512
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            10
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 10,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 512,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 232
+    },
+    {
+      "file": "CodeNonCyclic9.mat",
+      "sha256": "bdd067084efdd6b7dba7fe3c382e2a71d8f5c78b8ff7a4c66d23ed63d70a3707",
+      "fields": {
+        "dict": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint32"
+        },
+        "codes": {
+          "shape": [
+            17
+          ],
+          "dtype": "uint16"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "code_count": 17,
+      "first_codes": [
+        0,
+        7,
+        25,
+        42,
+        60,
+        95,
+        147,
+        161,
+        196,
+        231
+      ],
+      "contains_zero_code": true,
+      "dictionary_entries": 1024,
+      "nonzero_dictionary_values_are_raw_code_plus_one": true,
+      "dictionary_max": 511
+    },
+    {
+      "file": "FullyRobustCyclicCodes.mat",
+      "sha256": "1aae7a49f184666de5e999e67a87dd8abf05cefc5c2abf42e596e663ef1fff65",
+      "fields": {
+        "A": {
+          "shape": [
+            21
+          ],
+          "dtype": "object"
+        }
+      },
+      "content_review": "numeric arrays and structs/cells of numeric arrays only",
+      "cell_code_counts": [
+        {
+          "bit_length_index": 3,
+          "codes_count": 1,
+          "first_codes": [
+            0
+          ]
+        },
+        {
+          "bit_length_index": 4,
+          "codes_count": 2,
+          "first_codes": [
+            0,
+            7
+          ]
+        },
+        {
+          "bit_length_index": 5,
+          "codes_count": 2,
+          "first_codes": [
+            0,
+            7
+          ]
+        },
+        {
+          "bit_length_index": 6,
+          "codes_count": 2,
+          "first_codes": [
+            0,
+            7
+          ]
+        },
+        {
+          "bit_length_index": 7,
+          "codes_count": 3,
+          "first_codes": [
+            0,
+            7,
+            63
+          ]
+        },
+        {
+          "bit_length_index": 8,
+          "codes_count": 4,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85
+          ]
+        },
+        {
+          "bit_length_index": 9,
+          "codes_count": 4,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85
+          ]
+        },
+        {
+          "bit_length_index": 10,
+          "codes_count": 5,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            439
+          ]
+        },
+        {
+          "bit_length_index": 11,
+          "codes_count": 6,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 12,
+          "codes_count": 7,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 13,
+          "codes_count": 9,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 14,
+          "codes_count": 17,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 15,
+          "codes_count": 19,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 16,
+          "codes_count": 29,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 17,
+          "codes_count": 45,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 18,
+          "codes_count": 68,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 19,
+          "codes_count": 105,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 20,
+          "codes_count": 175,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        },
+        {
+          "bit_length_index": 21,
+          "codes_count": 273,
+          "first_codes": [
+            0,
+            7,
+            63,
+            85,
+            307
+          ]
+        }
+      ]
+    },
+    {
+      "file": "CodeCyclic14.dat",
+      "sha256": "34516b98a247e453ca7a518bc6f46b570ab82e508983381ccf4cb3470c2bf138",
+      "bytes": 21216,
+      "lines": 17,
+      "content_review": "ASCII binary digits and line endings only"
+    },
+    {
+      "file": "CodeCyclic16.dat",
+      "sha256": "9a2b4f8b087a7a45874eac61267c8496db7ec08185774e1e81025b880065d1b2",
+      "bytes": 59866,
+      "lines": 37,
+      "content_review": "ASCII binary digits and line endings only"
+    },
+    {
+      "file": "CodeCyclic21.dat",
+      "sha256": "8004b8a12ea5782efeab5bf657befed8a31fe6cdf3203cc147c0cbb7287d8da4",
+      "bytes": 1013753,
+      "lines": 377,
+      "content_review": "ASCII binary digits and line endings only"
+    }
+  ]
+}

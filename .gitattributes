@@ -1,0 +1,17 @@
+# Keep original archival bytes and line endings. New code/docs keep normal checks.
+source/original/** -text
+"source/original/matlab/decodeEditDistance.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/demo_popcnt.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/findCode.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/genBalls.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/genCodes.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/genCodesCyclic.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/genCodesNonCyclic.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/genGraphs.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/genNoise.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/genSkippedBall.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/generateCodeFiles.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/popcnt.cpp" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/matlab/simulateCodes.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/third_party/lcs/modified/LCS.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"source/original/third_party/lcs/package/LCS.m" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab

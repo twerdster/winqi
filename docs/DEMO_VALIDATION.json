@@ -1,0 +1,102 @@
+{
+  "schema": "winqi-demo-validation-v1",
+  "checked_at_utc": "2026-11-14T19:53:24+00:00",
+  "scope": "New procedural scene and bounded synthetic beacon decoding; supplied tracks and camera geometry, no camera acquisition, pose or SLAM validation.",
+  "tools": {
+    "blender": "5.1.2",
+    "pillow": "10.4.0",
+    "ffmpeg": "8.1.1"
+  },
+  "video": {
+    "codec": "H.264",
+    "pixel_format": "yuv420p",
+    "width": 1600,
+    "height": 900,
+    "fps": 30,
+    "frames": 360,
+    "duration_seconds": 12,
+    "audio_streams": 0,
+    "all_frames_decoded_without_errors": true
+  },
+  "room_frames": {
+    "width": 1120,
+    "height": 700,
+    "samples": 16,
+    "engine": "Cycles",
+    "denoising": true
+  },
+  "independent_blend_checks": {
+    "beacon_frame_pairs": 2160,
+    "emission_mismatches": 0,
+    "embedded_text_blocks": 0,
+    "drivers": 0,
+    "external_assets": 0,
+    "render_path_relative": true,
+    "all_projection_records_match_separate_probe": true
+  },
+  "visual_checks": {
+    "poster_inspected": true,
+    "warmup_flip_missing_compositions_reviewed": true,
+    "decoder_labels_from_computed_ids": true,
+    "positions_from_supplied_geometry": true,
+    "encoded_frames_reviewed": [
+      0,
+      84,
+      150,
+      225,
+      359
+    ],
+    "sampled_hud_bit_states_match": 390
+  },
+  "files": {
+    "media/winqi-demo.mp4": {
+      "bytes": 1980675,
+      "sha256": "dc34c61a4ed766e4e23946c4cee8a429b272e83c95fe488e4b915b372832216a"
+    },
+    "media/winqi-demo-poster.png": {
+      "bytes": 667032,
+      "sha256": "25998b07603b03b842858307984127b09bf8f6474a494c83c9b8abba509b5899"
+    },
+    "media/winqi-demo.blend": {
+      "bytes": 209447,
+      "sha256": "062a4b1e60e6e2567d8517c9f15102a9bd3b2d9cd418955025edf7ded85cded5"
+    },
+    "media/projections.json": {
+      "bytes": 489901,
+      "sha256": "1b0a0bfd31e6e5b2e0ce274aceaa4af702c600d1b93e10ce42ba7d26416f9e4f"
+    },
+    "updated/artifacts/simulation.json": {
+      "bytes": 468837,
+      "sha256": "c6abf3cbfd994611a2a11ba6bd3b09873841fa74b482360cd80466ae496b1d2a"
+    },
+    "updated/artifacts/codebook.json": {
+      "bytes": 817,
+      "sha256": "a72070cec916c202a42e419557173014dc724f498d739d5130a89e1cc4ce995b"
+    },
+    "updated/render_demo.py": {
+      "bytes": 12239,
+      "sha256": "d98e002587f10cb80dfd43ff9487cb5add42c80eb259b1373c16286ea8339267"
+    },
+    "updated/compose_demo.py": {
+      "bytes": 7680,
+      "sha256": "84b64262958cad2b4df1e5524a051a207f151dce20207948a782c2d3b4cabcca"
+    }
+  },
+  "browser_playback": {
+    "browser": "Google Chrome",
+    "full_playback_passed": true,
+    "ended_at_seconds": 12,
+    "total_video_frames": 360,
+    "decode_error": null
+  },
+  "documentation_checks": {
+    "markdown_files": 7,
+    "viewport_widths": [
+      390,
+      1440
+    ],
+    "all_relative_file_links_resolved": true,
+    "images_decoded": true,
+    "horizontal_overflow": false
+  }
+}

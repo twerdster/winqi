@@ -1,0 +1,40 @@
+{
+  "schema": "winqi-codebook-v1",
+  "bits": 13,
+  "packing": "nonconstant",
+  "unknown_id": 0,
+  "id_semantics": "one-based codebook position",
+  "noise_model": "one fixed-window flip, missed observation, or inserted binary observation",
+  "codes": [
+    {
+      "beacon_id": 1,
+      "word": "0000000000001",
+      "raw_code_value": 1
+    },
+    {
+      "beacon_id": 2,
+      "word": "0000000001111",
+      "raw_code_value": 15
+    },
+    {
+      "beacon_id": 3,
+      "word": "0000001010101",
+      "raw_code_value": 85
+    },
+    {
+      "beacon_id": 4,
+      "word": "0000001111111",
+      "raw_code_value": 127
+    },
+    {
+      "beacon_id": 5,
+      "word": "0000100110011",
+      "raw_code_value": 307
+    },
+    {
+      "beacon_id": 6,
+      "word": "0000111000111",
+      "raw_code_value": 455
+    }
+  ]
+}

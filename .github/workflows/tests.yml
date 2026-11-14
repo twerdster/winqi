@@ -1,0 +1,31 @@
+name: Source and decoder checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        python: ['3.10', '3.14']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verify historical source bytes
+        run: python scripts/verify_original_sources.py
+      - name: Verify published demonstration integrity
+        run: python scripts/verify_demo.py
+      - name: Run decoder and historical fixture tests
+        run: python -m unittest discover -s updated/tests -v
+      - name: Exercise the simulation CLI
+        run: python -m updated.cli simulate --out /tmp/winqi-simulation.json

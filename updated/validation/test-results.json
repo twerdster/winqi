@@ -1,0 +1,143 @@
+{
+  "schema": "winqi-test-results-v1",
+  "checked_at_utc": "2026-11-14T19:45:06+00:00",
+  "python_version": "3.14.4",
+  "python_implementation": "CPython",
+  "command": "python3 updated/run_checks.py",
+  "status": "passed",
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 3.043963,
+  "tests": [
+    {
+      "test": "test_core.CodebookTests.test_ambiguous_invalid_or_noncanonical_codebooks_are_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CodebookTests.test_code_invariants_and_disjoint_families",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CodebookTests.test_codebook_json_roundtrip_and_metadata_validation",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CodebookTests.test_constant_noise_is_not_a_background_detector",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CodebookTests.test_modelled_error_streams_all_ids_phases_positions",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CodebookTests.test_noise_matches_independent_physical_channel_exhaustively",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CodebookTests.test_rotation_order_and_periodic_words",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CodebookTests.test_unknown_and_warmup_are_explicit",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.SimulationTests.test_cli_codebook_decode_and_simulation",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.SimulationTests.test_default_fixture_actual_events_and_independent_metrics",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.SimulationTests.test_simulation_reproducible_and_inputs_bounded",
+      "status": "passed"
+    },
+    {
+      "test": "test_historical_tables.HistoricalTableTests.test_five_tables_regenerate_exactly_with_explicit_older_model_policy",
+      "status": "passed"
+    },
+    {
+      "test": "test_historical_tables.HistoricalTableTests.test_fixture_bound_to_exact_preserved_mat_bytes",
+      "status": "passed"
+    },
+    {
+      "test": "test_historical_tables.HistoricalTableTests.test_model_revision_and_constant_policy_changes_are_explicit",
+      "status": "passed"
+    },
+    {
+      "test": "test_historical_tables.HistoricalTableTests.test_saved_raw_value_mapping_is_not_modern_beacon_id",
+      "status": "passed"
+    }
+  ],
+  "source_sha256": {
+    "updated/core.py": "d1a438be5f9dd5ca7465dba5bf5bdca9d0df4b4aff9109e7052c19f5809a27ee",
+    "updated/cli.py": "e012a1ff6073d4944e9fda8b46601dfa3c610fc0244ecd3e4dfa4bb303ae2437",
+    "updated/run_checks.py": "0c95c37e4a4e6aff8a9544f9fba28e9b948b44dca01b2c9d6a1fceabc000c6f8",
+    "updated/tests/test_core.py": "7696122d93cf01c872f70b97ce2e18efaa91f7dc0ebb06e1387e90e99978ae53",
+    "updated/tests/test_historical_tables.py": "8cec098f3b463a9a546c2151a46e89377c67669a47396d2ff35ab975a163e219",
+    "updated/tests/fixtures/historical_cyclic_tables.json": "3330a827a40a4dbffb23b84b4e0406dfc90511c86dff0b469785f4544d2c2e98"
+  },
+  "artifacts": {
+    "codebook.json": {
+      "matches_fresh_output": true,
+      "sha256": "a72070cec916c202a42e419557173014dc724f498d739d5130a89e1cc4ce995b"
+    },
+    "simulation.json": {
+      "matches_fresh_output": true,
+      "sha256": "c6abf3cbfd994611a2a11ba6bd3b09873841fa74b482360cd80466ae496b1d2a"
+    }
+  },
+  "default_simulation_metrics": {
+    "observation_events": 720,
+    "warming_up_events": 72,
+    "correct_events": 648,
+    "incorrect_events": 0,
+    "unknown_events": 0,
+    "fault_samples": {
+      "flip": 6,
+      "missing": 6,
+      "duplicate": 6
+    },
+    "post_warmup_events": 648,
+    "post_warmup_correct_fraction": 1.0
+  },
+  "coverage": {
+    "independent_channel_all_words_bits": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "default_policy_codebook_invariants_bits": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "physical_single_fault_stream_cases": 5070,
+    "fault_types": [
+      "flip",
+      "missing",
+      "duplicate",
+      "insert0",
+      "insert1"
+    ],
+    "historical_full_dictionary_fixtures_bits": [
+      3,
+      6,
+      8,
+      10,
+      11
+    ],
+    "historical_model": "older variable-length noise model; explicit per-table constant policy",
+    "camera_or_hardware_validation": false
+  }
+}
